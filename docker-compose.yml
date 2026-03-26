@@ -7,6 +7,15 @@ services:
     restart: unless-stopped
     ports:
       - "3010:3010"
+    volumes:
+      - ./docs:/docs:ro
+      - ./task-details:/task-details:ro
+      - ./task-liste.md:/task-liste.md:ro
+      - ./task-liste-archiv.md:/task-liste-archiv.md:ro
+      - ./docs-registry.json:/app/docs-registry.json:ro
+      - ./deck-config.json:/app/deck-config.json
+      - ./assets.json:/app/assets.json
+      - ./public/images/upload:/app/public/images/upload
     environment:
       - NODE_ENV=production
       - PORT=3010

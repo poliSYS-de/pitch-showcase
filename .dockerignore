@@ -1,6 +1,7 @@
 node_modules
 .next
 .git
-*.md
-docs
 scripts
+task-details
+task-liste.md
+task-liste-archiv.md
