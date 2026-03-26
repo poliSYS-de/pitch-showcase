@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "defaultSlideIds": ["hero", "overview", "opportunity", "product", "vibe", "levels", "lfm", "gtm", "marketing", "scale", "finance", "team", "ask", "closing"],
+  "customPresets": []
+}

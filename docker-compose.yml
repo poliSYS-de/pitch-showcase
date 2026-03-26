@@ -1,0 +1,29 @@
+services:
+  pitch-showcase:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: polisys-pitch-showcase
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+      - PORT=3010
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.pitch-showcase.rule=PathPrefix(`/coding/pitch-showcase`)"
+      - "traefik.http.routers.pitch-showcase.entrypoints=web"
+      - "traefik.http.routers.pitch-showcase.priority=100"
+      - "traefik.http.services.pitch-showcase.loadbalancer.server.port=3010"
+      - "traefik.docker.network=polisys-proxy"
+    networks:
+      - polisys-proxy
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:3010/coding/pitch-showcase"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 60s
+
+networks:
+  polisys-proxy:
+    external: true

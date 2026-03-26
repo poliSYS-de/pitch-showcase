@@ -1,0 +1,381 @@
+[
+  {
+    "id": "team-brian-comic",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/team/comic/brian-abbott.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "team",
+    "label": "Brian Abbott (Comic)",
+    "description": "CEO & Co-Founder, comic illustration",
+    "status": "active",
+    "person": { "name": "Brian Abbott", "position": "CEO & Co-Founder", "active": true },
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["TEAM-MAIN"]
+  },
+  {
+    "id": "team-taban-comic",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/team/comic/taban-cosmos.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "team",
+    "label": "Taban Cosmos (Comic)",
+    "description": "CTO, comic illustration",
+    "status": "active",
+    "person": { "name": "Taban Cosmos", "position": "CTO", "active": true },
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["TEAM-MAIN"]
+  },
+  {
+    "id": "team-maximilian-comic",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/team/comic/maximilian-muhr.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "team",
+    "label": "Maximilian Muhr (Comic)",
+    "description": "CMO & Co-Founder, comic illustration",
+    "status": "active",
+    "person": { "name": "Maximilian Muhr", "position": "CMO & Co-Founder", "active": true },
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["TEAM-MAIN"]
+  },
+  {
+    "id": "team-paul-comic",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/team/comic/paul-capano.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "team",
+    "label": "Paul Capano (Comic)",
+    "description": "Operations, comic illustration",
+    "status": "active",
+    "person": { "name": "Paul Capano", "position": "Operations", "active": true },
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["TEAM-MAIN"]
+  },
+  {
+    "id": "team-sujit-comic",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/team/comic/sujit-kapur.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "team",
+    "label": "Sujit Kapur (Comic)",
+    "description": "Financial Analyst, comic illustration",
+    "status": "active",
+    "person": { "name": "Sujit Kapur", "position": "Financial Analyst", "active": true },
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["TEAM-MAIN"]
+  },
+  {
+    "id": "team-johnson-comic",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/team/comic/johnson-zhu.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "team",
+    "label": "Johnson Zhu (Comic)",
+    "description": "ML Engineer, comic illustration",
+    "status": "active",
+    "person": { "name": "Johnson Zhu", "position": "ML Engineer", "active": true },
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["TEAM-MAIN"]
+  },
+  {
+    "id": "team-brian-linkedin",
+    "variants": [
+      {
+        "format": "jpg",
+        "path": "/images/team/linkedin/brian-abbott.jpg",
+        "isPrimary": true
+      }
+    ],
+    "category": "team",
+    "label": "Brian Abbott (LinkedIn)",
+    "description": "Professional photo",
+    "status": "reserve",
+    "person": { "name": "Brian Abbott", "position": "CEO & Co-Founder", "active": true },
+    "addedDate": "2026-03-25",
+    "usedInSlides": []
+  },
+  {
+    "id": "team-maximilian-linkedin",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/team/linkedin/maximilian-muhr.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "team",
+    "label": "Maximilian Muhr (LinkedIn)",
+    "description": "Professional photo",
+    "status": "reserve",
+    "person": { "name": "Maximilian Muhr", "position": "CMO & Co-Founder", "active": true },
+    "addedDate": "2026-03-25",
+    "usedInSlides": []
+  },
+  {
+    "id": "team-taban-linkedin",
+    "variants": [
+      {
+        "format": "jpg",
+        "path": "/images/team/linkedin/taban-cosmos.jpg",
+        "isPrimary": true
+      }
+    ],
+    "category": "team",
+    "label": "Taban Cosmos (LinkedIn)",
+    "description": "Professional photo",
+    "status": "reserve",
+    "person": { "name": "Taban Cosmos", "position": "CTO", "active": true },
+    "addedDate": "2026-03-25",
+    "usedInSlides": []
+  },
+  {
+    "id": "team-sujit-linkedin",
+    "variants": [
+      {
+        "format": "jpg",
+        "path": "/images/team/linkedin/sujit-kapur.jpg",
+        "isPrimary": true
+      }
+    ],
+    "category": "team",
+    "label": "Sujit Kapur (LinkedIn)",
+    "description": "Professional photo",
+    "status": "reserve",
+    "person": { "name": "Sujit Kapur", "position": "Financial Analyst", "active": true },
+    "addedDate": "2026-03-25",
+    "usedInSlides": []
+  },
+  {
+    "id": "team-johnson-linkedin",
+    "variants": [
+      {
+        "format": "jpg",
+        "path": "/images/team/linkedin/johnson-zhu.jpg",
+        "isPrimary": true
+      }
+    ],
+    "category": "team",
+    "label": "Johnson Zhu (LinkedIn)",
+    "description": "Professional photo",
+    "status": "reserve",
+    "person": { "name": "Johnson Zhu", "position": "ML Engineer", "active": true },
+    "addedDate": "2026-03-25",
+    "usedInSlides": []
+  },
+  {
+    "id": "visual-1-jpg",
+    "variants": [
+      {
+        "format": "jpg",
+        "path": "/images/visual1.jpg",
+        "isPrimary": true
+      }
+    ],
+    "category": "visual",
+    "label": "Visual 1",
+    "description": "Product screenshot / mockup",
+    "status": "active",
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["PROD-DEMO"]
+  },
+  {
+    "id": "visual-2-jpg",
+    "variants": [
+      {
+        "format": "jpg",
+        "path": "/images/visual2.jpg",
+        "isPrimary": true
+      }
+    ],
+    "category": "visual",
+    "label": "Visual 2",
+    "description": "Product screenshot / mockup",
+    "status": "active",
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["PROD-DEMO"]
+  },
+  {
+    "id": "visual-3-jpg",
+    "variants": [
+      {
+        "format": "jpg",
+        "path": "/images/visual3.jpg",
+        "isPrimary": true
+      }
+    ],
+    "category": "visual",
+    "label": "Visual 3",
+    "description": "Product screenshot / mockup",
+    "status": "active",
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["PROD-DEMO"]
+  },
+  {
+    "id": "visual-1-png",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/visual1.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "visual",
+    "label": "Visual 1 (PNG)",
+    "description": "Product screenshot / mockup (PNG variant)",
+    "status": "active",
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["EX-VIZZ"]
+  },
+  {
+    "id": "visual-2-png",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/visual2.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "visual",
+    "label": "Visual 2 (PNG)",
+    "description": "Product screenshot / mockup (PNG variant)",
+    "status": "active",
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["EX-VIZZ"]
+  },
+  {
+    "id": "visual-3-png",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/visual3.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "visual",
+    "label": "Visual 3 (PNG)",
+    "description": "Product screenshot / mockup (PNG variant)",
+    "status": "active",
+    "addedDate": "2026-03-25",
+    "usedInSlides": ["EX-VIZZ"]
+  },
+  {
+    "id": "upload-screenshot-setup-2026-03",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/upload/Bildschirmfoto 2026-03-25 um 20.04.28.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "upload",
+    "label": "Setup Screenshot",
+    "description": "Screenshot of the Setup page",
+    "status": "reserve",
+    "addedDate": "2026-03-25",
+    "usedInSlides": []
+  },
+  {
+    "id": "upload-chart-financial",
+    "variants": [
+      {
+        "format": "jpeg",
+        "path": "/images/upload/chart.jpeg",
+        "isPrimary": true
+      }
+    ],
+    "category": "upload",
+    "label": "Financial Chart",
+    "description": "Financial chart graphic",
+    "status": "reserve",
+    "addedDate": "2026-03-25",
+    "usedInSlides": []
+  },
+  {
+    "id": "upload-gemini-generated-visual",
+    "variants": [
+      {
+        "format": "png",
+        "path": "/images/upload/Gemini_Generated_Image_r4pat3r4pat3r4pa.png",
+        "isPrimary": true
+      }
+    ],
+    "category": "upload",
+    "label": "Gemini Generated Visual",
+    "description": "AI-generated visual (Gemini)",
+    "status": "reserve",
+    "addedDate": "2026-03-25",
+    "usedInSlides": []
+  },
+  {
+    "id": "upload-photo-event-01",
+    "variants": [
+      {
+        "format": "jpg",
+        "path": "/images/upload/PHOTO-2026-03-25-19-40-54b.jpg",
+        "isPrimary": true
+      }
+    ],
+    "category": "upload",
+    "label": "Event Photo 1",
+    "description": "Event photo",
+    "status": "reserve",
+    "addedDate": "2026-03-25",
+    "usedInSlides": []
+  },
+  {
+    "id": "upload-photo-event-02",
+    "variants": [
+      {
+        "format": "jpg",
+        "path": "/images/upload/PHOTO-2026-03-25-19-40-55.jpg",
+        "isPrimary": true
+      }
+    ],
+    "category": "upload",
+    "label": "Event Photo 2",
+    "description": "Event photo",
+    "status": "reserve",
+    "addedDate": "2026-03-25",
+    "usedInSlides": []
+  },
+  {
+    "id": "upload-photo-event-03",
+    "variants": [
+      {
+        "format": "jpg",
+        "path": "/images/upload/PHOTO-2026-03-25-19-40-55a.jpg",
+        "isPrimary": true
+      }
+    ],
+    "category": "upload",
+    "label": "Event Photo 3",
+    "description": "Event photo",
+    "status": "reserve",
+    "addedDate": "2026-03-25",
+    "usedInSlides": []
+  }
+]

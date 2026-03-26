@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "id": "task-log",
+      "label": "Task Log",
+      "description": "Chronological development history with all tickets",
+      "icon": "clipboard-list",
+      "accent": "cyan",
+      "type": "task-log"
+    },
+    {
+      "id": "tech-docs",
+      "label": "Technical Documentation",
+      "description": "Architecture, stack overview, and file structure",
+      "icon": "code",
+      "accent": "blue",
+      "type": "doc-list",
+      "docs": [
+        { "file": "docs/TECH-SPEC-PITCH-PREPARATION-CENTER.md", "label": "Tech Spec: Pitch Preparation Center", "format": "md" }
+      ]
+    },
+    {
+      "id": "user-guides",
+      "label": "User Guides",
+      "description": "How-to guides for CEO and non-technical stakeholders",
+      "icon": "book-open",
+      "accent": "emerald",
+      "type": "doc-list",
+      "docs": [
+        { "file": "docs/ANLEITUNG-BRAND-ASSETS.md", "label": "Brand Assets — User Guide", "format": "md" },
+        { "file": "docs/Pitch-Preparation-Center-Summary.pdf", "label": "Pitch Prep Center — Executive Summary", "format": "pdf" }
+      ]
+    },
+    {
+      "id": "concepts",
+      "label": "Concepts & Planning",
+      "description": "Architecture decisions, feature specs, and CTO briefs",
+      "icon": "lightbulb",
+      "accent": "violet",
+      "type": "doc-list",
+      "docs": [
+        { "file": "docs/KONZEPT-SLIDE-ADMIN.md", "label": "Concept — Slide Admin", "phase": "Phase 1", "status": "APPROVED", "format": "md" },
+        { "file": "docs/KONZEPT-PITCH-PREPARATION-CENTER.md", "label": "Concept — Pitch Preparation Center", "phase": "Phase 2", "status": "APPROVED", "format": "md" },
+        { "file": "docs/KONZEPT-ASSET-MANAGEMENT.md", "label": "Concept — Asset Management", "phase": "Phase 2", "status": "APPROVED", "format": "md" },
+        { "file": "docs/KONZEPT-ASSET-EDITOR.md", "label": "Concept — Asset Editor", "phase": "Phase 2.5", "status": "APPROVED MIT AUFLAGEN", "format": "md" },
+        { "file": "docs/KONZEPT-DOCUMENTATION-HUB.md", "label": "Concept — Documentation Hub", "phase": "Phase 3", "status": "APPROVED MIT AUFLAGEN", "format": "md" }
+      ]
+    },
+    {
+      "id": "qa-reviews",
+      "label": "QA & Peer Reviews",
+      "description": "Quality reports, findings, and review verdicts",
+      "icon": "shield-check",
+      "accent": "amber",
+      "type": "doc-list",
+      "docs": [
+        { "file": "docs/PEER-FEEDBACK-SlideAdmin-03-26.md", "label": "Peer Review — Slide Admin", "verdict": "FREIGABE MIT AUFLAGEN", "format": "md" },
+        { "file": "docs/PEER-FEEDBACK-SlideAdmin-R2-03-26.md", "label": "Peer Review — Slide Admin R2", "verdict": "FREIGABE", "format": "md" },
+        { "file": "docs/PEER-FEEDBACK-PitchPrepCenter-03-26.md", "label": "Peer Review — Pitch Prep Center", "verdict": "FREIGABE MIT AUFLAGEN", "format": "md" },
+        { "file": "docs/PEER-FEEDBACK-AssetManagement-03-26.md", "label": "Peer Review — Asset Management", "verdict": "FREIGABE MIT AUFLAGEN", "format": "md" },
+        { "file": "docs/PEER-FEEDBACK-AssetEditor-03-26.md", "label": "Peer Review — Asset Editor", "verdict": "FREIGABE MIT AUFLAGEN", "format": "md" },
+        { "file": "docs/PEER-FEEDBACK-DocumentationHub-03-26.md", "label": "Peer Review — Documentation Hub", "verdict": "FREIGABE MIT AUFLAGEN", "format": "md" },
+        { "file": "task-details/T-AC-038-qa-report.md", "label": "QA Report — Visual Review (14 Tasks)", "verdict": "14 TASKS QA'd", "format": "md" },
+        { "file": "task-details/T-AC-080-qa-report.md", "label": "QA Report — Asset Editor", "verdict": "NICHT BESTANDEN", "format": "md" }
+      ]
+    },
+    {
+      "id": "qa-strategy",
+      "label": "QA & Testing Strategy",
+      "description": "Quality pipeline, test coverage, security measures, deployment checks",
+      "icon": "flask-conical",
+      "accent": "rose",
+      "type": "single-doc",
+      "defaultDoc": "docs/QA-STRATEGY.md"
+    },
+    {
+      "id": "agent-system",
+      "label": "Agent System",
+      "description": "poliSYS multi-agent architecture: roles, workflow, session data",
+      "icon": "bot",
+      "accent": "indigo",
+      "type": "single-doc",
+      "defaultDoc": "docs/AGENT-SYSTEM-OVERVIEW.md"
+    }
+  ]
+}
