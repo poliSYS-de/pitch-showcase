@@ -10,7 +10,7 @@ services:
       - PORT=3010
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.pitch-showcase.rule=PathPrefix(`/coding/pitch-showcase`)"
+      - "traefik.http.routers.pitch-showcase.rule=HostRegexp(`{host:.+}`) && PathPrefix(`/coding/pitch-showcase`)"
       - "traefik.http.routers.pitch-showcase.entrypoints=websecure"
       - "traefik.http.routers.pitch-showcase.tls=true"
       - "traefik.http.routers.pitch-showcase.priority=100"
