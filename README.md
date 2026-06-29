@@ -1,3 +1,12 @@
+> **ARCHIVIERT / DEPRECATED (2026-06-29) - Repo-Hygiene-Block**
+>
+> Dieses Repo wird nicht mehr aktiv gepflegt und ist auf GitHub archiviert (read-only).
+> Grund: Agentiq-Pitch-Demo, abgeloest durch das aktive Astro-Relaunch-Repo `poliSYS-de/agentiqcapital-com`.
+> Aktuelle Quelle: `poliSYS-de/agentiqcapital-com` (agentiqcapital.com-Relaunch).
+> Archiviert im Rahmen der GitHub-Bestand-Bereinigung (Session T800-DevOps_GitHubRepoOrdnung_A_06-25).
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
